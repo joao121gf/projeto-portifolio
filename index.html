@@ -13,13 +13,75 @@
             <div class="picture-navbar">
                 <img id="my-picture" src="elementos/imagens/minha_foto.jpeg" alt="Minha">
             </div>
-            <div class="navbar-links">
-                <p>Projetos</p>
-                <p>Sobre</p>
-                <p>Contato</p>
 
-            </div>
+
+
+            <nav id="nav">
+                <button id="btn-mobile" onclick="clickMenu()">&#9776;</button>
+                <ul class="navbar-links" id="botoesMenu">
+                    <a href="#">
+                        <li>
+                            <p>Projeto</p>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <p>Habilidades</p>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <p>Sobre</p>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <p>Contato</p>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+
+
         </div>
     </header>
+    <main class="my-container">
+        <div class="apresentacao">
+            <span style="color: #D2EAFF;">Olá, sou o</span> João
+            <p>Futuro desenvolvedor full stack.</p>
+            <a href="#" class="about-me-buttom">Sobre mim</a>
+        </div>
+        <div class="picture-profile">
+
+        </div>
+    </main>
+
+
+
+    <script>
+        class MobileNavbar {
+            constructor() {
+                this.mobileMenu = document.querySelector(mobileMenu);
+                this.navList = document.querySelector(navList);
+                this.navLinks = document.querySelectorAll(navLinks);
+                this.activeClass = "active";
+            }
+            addAclickEvent() {
+                this.mobileMenu.addEventListener("click",() => console.log("hey"))
+            }
+            init() {
+                if (this.mobileMenu) {
+                    this.addClickEvent();
+                }
+                return this;
+            }
+        }
+        const MobileNavbar = new MobileNavbar(
+            ".navbar-links",
+            ".navbar-links a",
+        );
+        mobileNavbar.init();
+        
+    </script>
 </body>
 </html>
