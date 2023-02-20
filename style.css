@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "inter";
+    src: url(elementos/fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+
+:root {
+    --azul-1: #011C36;
+    --azul-2: #3C81C1;
+    --azul-3: #025EB4;
+    --azul-4: #112436;
+    --azul-5: #014482;
+  }
+
+
+body{
+    background-color: #0C0B0C;
+}
+
+/* Configurando minha foto que aparece no cabeçalho */
+#my-picture{
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    margin-left: 15vw;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 25 auto;
+    color: #D2EAFF;
+}
+
+.navbar-links{
+    display: flex;
+    margin-right: 20vw;
+    font-family: inter;
+    font-size: 21px;
+    font-weight: 500;
+
+}
+
+.navbar-links > p {
+    padding: 0 10px;
+}
