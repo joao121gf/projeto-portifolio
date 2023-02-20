@@ -43,7 +43,7 @@ body{
 
 
 /*projetos habilidades sobre */
-.navbar-links > a {
+.navbar-links > li {
     padding: 0 10px;
     border-radius: 20px;
     padding: 0px 20px;
@@ -51,7 +51,7 @@ body{
     list-style-type: none;
 }
 
-.navbar-links > a:hover {
+.navbar-links > li:hover {
     background-color: #D2EAFF;
     color: #0384fd;
     
