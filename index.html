@@ -18,7 +18,6 @@
 
             <header>
                 <nav>
-                  <a class="logo" href="/">Tiger Codes</a>
                   <div class="mobile-menu">
                     <div class="line1"></div>
                     <div class="line2"></div>
@@ -41,39 +40,13 @@
         <div class="apresentacao">
             <span style="color: #D2EAFF;">Olá, sou o</span> João
             <p>Futuro desenvolvedor full stack.</p>
-            <a href="#" class="about-me-buttom">Sobre mim</a>
+
+            <span class="about-me"><a href="#">Sobre mim</a></span>
         </div>
         <div class="picture-profile">
 
         </div>
     </main>
-
-
-
-    <script>
-        class MobileNavbar {
-            constructor() {
-                this.mobileMenu = document.querySelector(mobileMenu);
-                this.navList = document.querySelector(navList);
-                this.navLinks = document.querySelectorAll(navLinks);
-                this.activeClass = "active";
-            }
-            addAclickEvent() {
-                this.mobileMenu.addEventListener("click",() => console.log("hey"))
-            }
-            init() {
-                if (this.mobileMenu) {
-                    this.addClickEvent();
-                }
-                return this;
-            }
-        }
-        const MobileNavbar = new MobileNavbar(
-            ".navbar-links",
-            ".navbar-links a",
-        );
-        mobileNavbar.init();
-        
-    </script>
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
