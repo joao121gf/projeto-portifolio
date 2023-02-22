@@ -142,8 +142,6 @@ a{
     border-radius: 20px;
     margin: 10px;
     font-weight: 600;
-    -webkit-touch-callout: none;  /* iPhone OS, Safari */
-    -webkit-user-select: none;    /* Chrome, Safari 3 */
     transition: border-width .06s ease;
 
 }
@@ -215,8 +213,7 @@ ul {
     border: 4px solid #0384fd88;
     text-align: center;
     margin-top: 70px;
-    -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
 }
 
 
