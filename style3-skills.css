@@ -5,12 +5,16 @@
 }
 
 
+html {
+    overflow-x: hidden;
+}
+
 /* O container que envolve todas skills */
 .skills-container {
     height: 500px;
     background-color: #0C0B0C;
     padding: 23px 0px 17px 0px;
-    margin-top: 475px;
+    margin-top: 175px;
 }
 
 
