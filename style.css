@@ -41,7 +41,13 @@ body{
     border: 1px solid #0272db;
     margin-left: 15vw;
     margin-top: 23px;
+    animation: flutuar 2s ease-in-out infinite;
 }
+
+
+/* Fazer a imagem flutuar */
+
+
 
 .navbar{
     display: flex;
