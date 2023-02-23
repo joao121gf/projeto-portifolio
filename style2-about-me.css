@@ -9,7 +9,7 @@
 .container-sobre-mim{
     height: 400px;
     background-color: #101010;
-    margin-top: 230px;
+    margin-top: 316px;
     animation: slide-left 1s ease-in-out;
 }
 
@@ -18,7 +18,6 @@
     justify-content: center;
     position: absolute;
     left: 22%;
-
 }
 
 .sobre-mim > div > h2 {
@@ -56,17 +55,29 @@
     .sobre-mim > div >  h2 {
         font-size: 25px;
     }
+
+    .sobre-mim > div >  p {
+        width: 77%;
+        font-size: 100%;
+
+    }
+
     /* Deixando a foto menor */
     .foto-alice {  
     min-height: 170px;
+    margin: 0 auto;
+    display: none;
     }
 
     .sobre-mim {
-        left: 5%;
+        display: block;
+        left: initial;
+        margin-top: 66px;
     }
 
     .container-sobre-mim{
         margin: 0px 20px;
+        height: auto;
     }
 
 
