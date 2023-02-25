@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "inter";
+    src: url(elementos/fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+
+
+
+.father-contact{
+    width: 100%;
+    height: auto;
+    background-color: black;
+
+}
+
+
+.container-contact{
+    height: 400px;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #000000;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Quadrado ''mensagem'' */
+
+.mensage{
+    /* width: 40%; */
+    width: 100%;
+    max-width: 659px;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    max-width: 230px;
+    padding: 5px;
+    margin-top: 7px;
+    margin-left: 30px;
+    background-color: #222222;
+    color: white;
+    font-weight: 500;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 11px 10px;
+    font-size: 16.5px;
+
+}
+
+textarea:hover{
+    outline: #d2eaff65 solid 2px;
+    outline-offset: 3px;
+
+
+
+}
+
+textarea:focus{
+    outline: rgb(1, 132, 252) solid 3px;
+    outline-offset: 3px;
+}
+
+::placeholder{
+    font-size: 16.5px;
+}
+
+
+.father-inputs{
+    width: 100%;
+    max-width: 659px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    max-width: 230px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: #222222;
+    color: white;
+    font-family: inter;
+    font-weight: 500;
+    outline: none;
+    border: 2px solid transparent;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 16.5px;
+}
+
+/* Botao de enviar do formulário */
+
+
+input:hover{
+    outline: #d2eaff65 solid 2px;
+    outline-offset: 3px;
+
+}
+
+input:focus{
+    /* border: 2px solid #0384fd; */
+    outline: rgb(1, 132, 252) solid 3px;
+    outline-offset: 3px;
+
+}
+
+
+/* botao de enviar */
+
+.submit-button{
+    background-color: #0384fd;
+    color: #D2EAFF;
+    font-family: inter;
+    font-weight: 600;
+    font-size: 1.24rem;
+    transition: border-width .06s ease;
+    height: 50px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 246px;
+    margin-left: 30px;
+}
+
+.submit-button:hover{
+    outline: none;
+    border: 4px solid #D2EAFF;
+    padding: 9px 5px;
+    cursor: pointer;
+    background-color: #0374dd;
+    color: white;
+}
+
+.submit-father{
+    width: 100%;
+    max-width: 659px;
+}
