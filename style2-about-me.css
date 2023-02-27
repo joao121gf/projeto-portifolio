@@ -6,11 +6,12 @@
 
 /* Configurando a seção de sobre-mim abaixo das boas vindas */
 
-.container-sobre-mim{
-    height: 400px;
+.container-sobre-mim {
+    height: 442px;
     background-color: #101010;
     margin-top: 420px;
     animation: slide-left 1s ease-in-out;
+    padding-top: 100px;
 }
 
 .sobre-mim {
