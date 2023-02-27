@@ -16,11 +16,14 @@
 
 .container-contact{
     height: 400px;
-    width: 40%;
+    width: 70%;
     margin: 0 auto;
     background-color: #000000;
     text-align: center;
     padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
 }
 
 /* Quadrado ''mensagem'' */
@@ -34,7 +37,7 @@
 textarea{
     resize: none;
     width: 100%;
-    max-width: 230px;
+    max-width: 263px;
     padding: 5px;
     margin-top: 7px;
     margin-left: 30px;
@@ -76,7 +79,7 @@ textarea:focus{
 
 input{
     width: 100%;
-    max-width: 230px;
+    max-width: 263px;
     padding: 10px 5px;
     border-radius: 10px;
     background-color: #222222;
@@ -119,7 +122,7 @@ input:focus{
     height: 50px;
     margin-top: 20px;
     width: 100%;
-    max-width: 246px;
+    max-width: 288px;
     margin-left: 30px;
 }
 
@@ -136,3 +139,94 @@ input:focus{
     width: 100%;
     max-width: 659px;
 }
+
+/* Configurações do vamos trabalhar juntos */
+
+
+
+
+
+/* Conf o título principal */
+
+
+.lets-work-father{
+    width: 100%;
+    background-color: #000000;
+}
+
+
+.lets-work > h1{
+    color: white;
+    font-family: inter;
+    text-align: left;
+}
+
+.lets-work > p{
+    color: white;
+    font-family: inter;
+    text-align: left;
+}
+
+
+.lets-work > p > a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+
+    /* Container dos icones das redes sociais */
+.logo-media{
+    text-align: left;
+}
+
+
+/* ícones das redes sociais */
+.social-logo{
+    width: 45px;
+    margin: 5px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.social-logo:hover{
+    transform: scale(1.05);
+
+}
+
+
+@media (max-width: 742px){
+    .container-contact{
+        grid-template-columns: 1fr;
+    }
+    .lets-work-father {
+        margin-top: 50px;
+    }
+
+    form{
+        margin-top: 50px;
+        
+    }
+
+    .lets-work {
+        /* margin-left: 90px; */
+        margin: 0 auto;
+    }
+
+    form{
+        left: -16px;
+    }
+
+    input, textarea{
+        max-width: 50vw;
+    }
+
+    .submit-button{
+        max-width: 54vw;
+    }
+
+
+}
+
