@@ -41,6 +41,7 @@ html {
     width: 230px;
     height: 130px;
     background-color: #05001E;
+    background: linear-gradient(to right, #10141c, #06080a);
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -52,6 +53,7 @@ html {
     font-size: 1.2rem;
     padding-top: 20px;
     transition: transform 0.3s;
+    box-shadow: 3px 2px 3px 0px black;;
 }
 /* Aumentando as skilss quando passo o mouse emcima */
 .mini-bloco:hover{
