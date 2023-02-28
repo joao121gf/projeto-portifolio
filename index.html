@@ -13,15 +13,15 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
+        <nav class="navbar">
             <div class="picture-navbar">
                 <a href="#"><img id="my-picture" src="elementos/imagens/minha_foto-mini.png" alt="Minha"></a>
             </div>
 
 
 
-            <header style="margin-top: 20px;">
-                <nav class="menu">
+            <nav style="margin-top: 20px;">
+                <div class="menu">
                   <div class="mobile-menu">
                     <div class="line1"></div>
                     <div class="line2"></div>
@@ -33,14 +33,14 @@
                     <li><a href="#projects">Projetos</a></li>
                     <li><a href="#cont-here">Contato</a></li>
                   </ul>
-                </nav>
-              </header>
+                </div>
+              </nav>
               <main></main>
 
 
-        </div>
+            </nav>
     </header>
-    <main class="my-container">
+    <section class="my-container">
         <div class="apresentacao">
             <span style="color: #D2EAFF;">Olá, sou o</span> João
             <p>Futuro desenvolvedor full stack.</p>
@@ -51,10 +51,10 @@
           <img class="my-picture" src="elementos/imagens/minha_foto4.png" alt="">
         </div>
         <span id="link-about-me"> </span>
-    </main>
+    </section>
 
 
-      <div class="container-sobre-mim" >
+      <article class="container-sobre-mim" >
         <div class="sobre-mim" >
           <img class="foto-alice" src="elementos/imagens/foto-alice2.jpeg" alt="Minha foto">
           <div>
@@ -64,9 +64,9 @@
             </P>
           </div>
         </div>
-      </div>
+      </article>
       <span id="link-skills"></span>
-      <div class="skills-container">
+      <section class="skills-container">
         <h1 id="id-skills"><span style="margin-right: 10px;"><img src="elementos/imagens/icones/icons8-manutenção-50.png" alt=""></span> Habilidades </h1>
         <div class="skills">
           <div class="mini-bloco">
@@ -100,9 +100,9 @@
             
           </div>
         </div>
-      </div>
+      </section>
   
-      <div class="bloco-pai">
+      <main class="bloco-pai">
         <span id="projects"></span>
         <h1 class="h1-project"><span><img style="width: 40px; margin-right: 10px;" src="elementos/imagens/icones/suitcase.png" alt="Imagem maleta"></span> Projetos</h1>
         <div class="container-projects">
@@ -168,11 +168,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </main>
 
 
 
-      <div class="father-contact" id="cont-here">
+      <article class="father-contact" id="cont-here">
         <div class="container-contact">
           <div class="lets-work-father">
             <div class="lets-work">
@@ -208,7 +208,7 @@
 
           </form>
         </div>
-      </div>
+      </article>
     <script src="mobile-navbar.js"></script>
 </body>
 </html>
