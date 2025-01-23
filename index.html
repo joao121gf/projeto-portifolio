@@ -1,222 +1,239 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>João Giovani</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2-about-me.css">
-    <link rel="stylesheet" href="style3-skills.css">
-    <link rel="stylesheet" href="style4-projects.css">
-    <link rel="stylesheet" href="style5-contact.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2-about-me.css" />
+    <link rel="stylesheet" href="style3-skills.css" />
+    <link rel="stylesheet" href="style4-projects.css" />
+    <link rel="stylesheet" href="style5-contact.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="picture-navbar">
-                <a href="#"><img id="my-picture" src="elementos/imagens/minha_foto-mini.png" alt="Minha"></a>
+      <nav class="navbar">
+        <div class="picture-navbar">
+          <a href="#"><img id="my-picture" src="elementos/imagens/minha_foto-mini.png" alt="Minha" /></a>
+        </div>
+
+        <nav style="margin-top: 20px">
+          <div class="menu">
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
             </div>
-
-
-
-            <nav style="margin-top: 20px;">
-                <div class="menu">
-                  <div class="mobile-menu">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                  </div>
-                  <ul class="nav-list">
-                    <li><a href="#link-about-me">Sobre</a></li>
-                    <li><a href="#link-skills">Habilidades</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#cont-here">Contato</a></li>
-                  </ul>
-                </div>
-              </nav>
-              <main></main>
-
-
-            </nav>
+            <ul class="nav-list">
+              <li><a href="#link-about-me">Sobre</a></li>
+              <li><a href="#link-skills">Habilidades</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <li><a href="#cont-here">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+        <main></main>
+      </nav>
     </header>
     <section class="my-container">
-        <div class="apresentacao">
-            <span style="color: #D2EAFF;">Olá, sou o</span> João
-            <p>Futuro desenvolvedor full stack.</p>
+      <div class="apresentacao">
+        <span style="color: #d2eaff">Olá, sou o</span> João
+        <p>Desenvolvedor Front-End</p>
 
-            <span class="about-me"><a href="#link-about-me">Sobre mim</a></span>
-        </div>
-        <div class="picture-profile">
-          <img class="my-picture" src="elementos/imagens/minha_foto4.png" alt="">
-        </div>
-        <span id="link-about-me"> </span>
+        <span class="about-me"><a href="#projects">Projetos</a></span>
+      </div>
+      <div class="picture-profile">
+        <img class="my-picture" src="elementos\imagens\elements-project\perfi.png" alt="" />
+      </div>
+      <span id="link-about-me"> </span>
     </section>
 
+    <article class="container-sobre-mim">
+      <div class="sobre-mim">
+        <img class="foto-alice" src="elementos\imagens\elements-project\mage.png" alt="Minha foto" />
+        <div>
+          <h2>Quem sou eu?</h2>
+          <p>Sou João Giovani, fundador de uma agência de desenvolvimento web, especializado em criar sites responsivos com HTML, CSS, JavaScript e React. Focado em entregar soluções eficientes e de qualidade, estou sempre buscando novos desafios para expandir minhas habilidades, com o objetivo de me tornar um desenvolvedor full stack no futuro.</p>
+        </div>
+      </div>
+    </article>
+    <span id="link-skills"></span>
+    <section class="skills-container">
+      <h1 id="id-skills">
+        <span style="margin-right: 10px"><img src="elementos/imagens/icones/icons8-manutenção-50.png" alt="" /></span> Habilidades
+      </h1>
+      <div class="skills">
+        <div class="mini-bloco">
+          <img class="icones-skills" src="elementos/imagens/icones/css-3.1.png" alt="Icone css3" />
+          <p>CSS3</p>
+        </div>
 
-      <article class="container-sobre-mim" >
-        <div class="sobre-mim" >
-          <img class="foto-alice" src="elementos/imagens/foto-alice2.jpeg" alt="Minha foto">
-          <div>
-            <h2>Quem sou eu?</h2>
-            <P>Olá, meu nome é João Giovani, Estou animado para mergulhar em projetos desafiadores, aprender novas habilidades e continuar crescendo como desenvolvedor. Estou atualmente estudando tecnologias mais usadas na área de front end e futuramente busco aprender mais sobre tecnologias back end para me tornar um desenvolvedor full stack.
-            Agradeço a oportunidade de compartilhar um pouco sobre mim e espero trabalhar com você em projetos emocionantes no futuro.
-            </P>
+        <div class="mini-bloco">
+          <img class="icones-skills" src="elementos/imagens/icones/html5.1.png" alt="Icone html5" />
+          <p>HTML5</p>
+        </div>
+
+        <div class="mini-bloco">
+          <img class="icones-skills react" src="elementos\imagens\react.png" alt="Icone React" />
+          <p>React</p>
+        </div>
+
+        <div class="mini-bloco">
+          <img class="icones-skills ps6" src="elementos\imagens\photoshop.png" alt="Icone Photoshop" />
+          <p>Photoshop</p>
+        </div>
+
+        <div class="mini-bloco">
+          <img class="icones-skills" src="elementos/imagens/icones/js.1.png" alt="Icone JavaScript" />
+          <p>JavaScript</p>
+        </div>
+
+        <div class="mini-bloco">
+          <img class="icones-skills" src="elementos/imagens/icones/git.1.png" alt="Icone git" />
+          <p>Git VCS</p>
+        </div>
+      </div>
+    </section>
+
+    <main class="bloco-pai">
+      <span id="projects"></span>
+      <h1 class="h1-project">
+        <span><img style="width: 40px; margin-right: 10px" src="elementos/imagens/icones/suitcase.png" alt="Imagem maleta" /></span> Projetos
+      </h1>
+      <div class="container-projects">
+        <div class="projects">
+          <img class="img-project" src="elementos/imagens/elements-project/1.png" alt="Tela de login" />
+          <div class="tec-usadas">
+            <h1 style="color: #0384fd">Natural Piscina</h1>
+            <p style="font-weight: 500; padding: 0 10px">Catálogo de produtos e serviço para uma empresa especializada em piscinas</p>
+            <p class="icons-tools">
+              <img style="width: 35px" src="elementos/imagens/icones/html5.1.png" alt="" />
+              <img style="width: 35px" src="elementos/imagens/icones/css-3.1.png" alt="" />
+              <img style="width: 35px" src="elementos/imagens/icones/js.1.png" alt="js logo" />
+            </p>
+            <p class="grid-git-site">
+              <a href="https://naturalpiscina.com.br/" target="_blank">Visitar</a>
+            </p>
           </div>
         </div>
-      </article>
-      <span id="link-skills"></span>
-      <section class="skills-container">
-        <h1 id="id-skills"><span style="margin-right: 10px;"><img src="elementos/imagens/icones/icons8-manutenção-50.png" alt=""></span> Habilidades </h1>
-        <div class="skills">
-          <div class="mini-bloco">
-            <img class="icones-skills" src="elementos/imagens/icones/css-3.1.png" alt="Icone css3">
-            <p>CSS3</p>
-          </div>
-
-          <div class="mini-bloco">
-            <img class="icones-skills" src="elementos/imagens/icones/html5.1.png" alt="Icone html5">
-            <p>HTML5</p>
-          </div>
-          
-          <div class="mini-bloco">
-            <img class="icones-skills" src="elementos/imagens/icones/git.1.png" alt="Icone git">
-            <p>Git VCS</p>
-          </div>
-
-          <div class="mini-bloco">
-            <img class="icones-skills" src="elementos/imagens/icones/github.1.png" alt="Icone GitHub">
-            <p>GitHub</p>
-          </div>
-
-          <div class="mini-bloco">
-            <img class="icones-skills" src="elementos/imagens/icones/js.1.png" alt="Icone JavaScript">
-            <p>JavaScript</p>
-          </div>
-
-          <div class="mini-bloco">
-            <img class="icones-skills" src="elementos/imagens/icones/python.1.png" alt="Icone Python">
-            <p>Python</p>
-            
+        <div class="projects">
+          <img class="img-project" src="elementos/imagens/elements-project/2.png" alt="Tela de login" />
+          <div class="tec-usadas">
+            <h1 style="color: #0384fd">Bravalink</h1>
+            <p style="font-weight: 500; padding: 0 10px">Agência Pessoal dedicada a oferecer soluções inovadoras e a desenvolver interfaces excepcionais para nossos clientes.</p>
+            <p class="icons-tools">
+              <img style="width: 35px" src="elementos/imagens/icones/html5.1.png" alt="" />
+              <img style="width: 35px" src="elementos/imagens/icones/css-3.1.png" alt="" />
+              <img style="width: 35px" src="elementos/imagens/icones/js.1.png" alt="js logo" />
+            </p>
+            <p class="grid-git-site">
+              <a href="https://bravalink.com.br/" target="_blank">Visitar</a>
+            </p>
           </div>
         </div>
-      </section>
-  
-      <main class="bloco-pai">
-        <span id="projects"></span>
-        <h1 class="h1-project"><span><img style="width: 40px; margin-right: 10px;" src="elementos/imagens/icones/suitcase.png" alt="Imagem maleta"></span> Projetos</h1>
-        <div class="container-projects">
 
-
-          <div class="projects">
-            <img class="img-project" src="elementos/imagens/elements-project/academia.png" alt="Site Academia">
-            <div class="tec-usadas">
-              <h1 style="color: #0384fd;">RatsFit Academia</h1>
-              <p style="font-weight: 500; padding: 0 10px;">Site para uma academia, contendo planos, área de APP com QRCode, contatos e muito mais. </p>
-              <p class="icons-tools">
-                <img style="width: 35px;" src="elementos/imagens/icones/html5.1.png" alt="HTML5">
-                <img style="width: 35px;" src="elementos/imagens/icones/css-3.1.png" alt="CSS3">
-                <img style="width: 35px;" src="elementos/imagens/icones/js.1.png" alt="js logo">
-              </p>
-              <p class="grid-git-site">
-                <a href="https://github.com/joao121gf/academia" target="_blank">Código</a>
-                <a href="https://joao121gf.github.io/academia/" target="_blank">Visitar</a>
-              </p>
-            </div>
+        <div class="projects">
+          <img class="img-project" src="elementos/imagens/elements-project/academia.png" alt="Site Academia" />
+          <div class="tec-usadas">
+            <h1 style="color: #0384fd">RatsFit Academia</h1>
+            <p style="font-weight: 500; padding: 0 10px">Site para uma academia, contendo planos, área de APP com QRCode, contatos e muito mais.</p>
+            <p class="icons-tools">
+              <img style="width: 35px" src="elementos/imagens/icones/html5.1.png" alt="HTML5" />
+              <img style="width: 35px" src="elementos/imagens/icones/css-3.1.png" alt="CSS3" />
+              <img style="width: 35px" src="elementos/imagens/icones/js.1.png" alt="js logo" />
+            </p>
+            <p class="grid-git-site">
+              <a href="https://github.com/joao121gf/academia" target="_blank">Código</a>
+              <a href="https://joao121gf.github.io/academia/" target="_blank">Visitar</a>
+            </p>
           </div>
-
-
-
-          <div class="projects">
-            <img class="img-project" src="elementos/imagens/elements-project/provedor.png" alt="Tela de login">
-            <div class="tec-usadas">
-              <h1 style="color: #0384fd;">Provedor Ip Scape</h1>
-              <p style="font-weight: 500; padding: 0 10px;">Site feito para uma empresa real de hospedagem de internet, responsivo para todos dispositivos e já hospedado, atendendo todas necessidades do cliente.</p>
-              <p class="icons-tools">
-                <img style="width: 35px;" src="elementos/imagens/icones/html5.1.png" alt="html logo">
-                <img style="width: 35px;" src="elementos/imagens/icones/css-3.1.png" alt="css logo">
-                <img style="width: 35px;" src="elementos/imagens/icones/js.1.png" alt="js logo">
-              </p>
-              <p class="grid-git-site">
-                <!-- <a href="https://github.com/joao121gf/projeto-cordel" target="_blank">Código</a> -->
-                <a href="https://ipscape.com.br/site/" target="_blank">Visitar</a>
-              </p>
-            </div>
-          </div>
-          <div class="projects">
-            <img class="img-project" src="elementos/imagens/elements-project/tela-login2.png" alt="Tela de login">
-            <div class="tec-usadas">
-              <h1 style="color: #0384fd;">E-commerce</h1>
-              <p style="font-weight: 500; padding: 0 10px;">Uma loja de roupas estática, para aprimorar meus conhecimentos sobre responsividade apenas utilizando HTML5 e CSS3 </p>
-              <p class="icons-tools">
-                <img style="width: 35px;" src="elementos/imagens/icones/html5.1.png" alt="">
-                <img style="width: 35px;" src="elementos/imagens/icones/css-3.1.png" alt="">
-              </p>
-              <p class="grid-git-site">
-                <a href="https://github.com/joao121gf/loja-de-roupas" target="_blank">Código</a>
-                <a href="https://joao121gf.github.io/loja-de-roupas/" target="_blank">Visitar</a>
-              </p>
-            </div>
-          </div>
-          <div class="projects">
-            <img class="img-project" src="elementos/imagens/elements-project/tela-login-teste.png" alt="Tela de login">
-            <div class="tec-usadas">
-              <h1 style="color: #0384fd;">Tela de login</h1>
-              <p style="font-weight: 500; padding: 0 10px;">A interface de uma tela de login animada, em breve planejo deixá-la funcional.</p>
-              <p class="icons-tools">
-                <img style="width: 35px;" src="elementos/imagens/icones/html5.1.png" alt="">
-                <img style="width: 35px;" src="elementos/imagens/icones/css-3.1.png" alt="">
-              </p>
-              <p class="grid-git-site">
-                <a href="https://github.com/joao121gf/tela-de-login" target="_blank">Código</a>
-                <a href="https://joao121gf.github.io/tela-de-login/" target="_blank">Visitar</a>
-              </p>
-            </div>
-          </div>
-          
-          
         </div>
-      </main>
 
+        <div class="projects">
+          <img class="img-project" src="elementos/imagens/elements-project/provedor.png" alt="Tela de login" />
+          <div class="tec-usadas">
+            <h1 style="color: #0384fd">Provedor Ip Scape</h1>
+            <p style="font-weight: 500; padding: 0 10px">Site feito para uma empresa real de hospedagem de internet, responsivo para todos dispositivos e já hospedado, atendendo todas necessidades do cliente.</p>
+            <p class="icons-tools">
+              <img style="width: 35px" src="elementos/imagens/icones/html5.1.png" alt="html logo" />
+              <img style="width: 35px" src="elementos/imagens/icones/css-3.1.png" alt="css logo" />
+              <img style="width: 35px" src="elementos/imagens/icones/js.1.png" alt="js logo" />
+            </p>
+            <p class="grid-git-site">
+              <!-- <a href="https://github.com/joao121gf/projeto-cordel" target="_blank">Código</a> -->
+              <a href="https://ipscape.com.br/site/" target="_blank">Visitar</a>
+            </p>
+          </div>
+        </div>
+        <div class="projects">
+          <img class="img-project" src="elementos/imagens/elements-project/tela-login2.png" alt="Tela de login" />
+          <div class="tec-usadas">
+            <h1 style="color: #0384fd">E-commerce</h1>
+            <p style="font-weight: 500; padding: 0 10px">Uma loja de roupas estática, para aprimorar meus conhecimentos sobre responsividade apenas utilizando HTML5 e CSS3</p>
+            <p class="icons-tools">
+              <img style="width: 35px" src="elementos/imagens/icones/html5.1.png" alt="" />
+              <img style="width: 35px" src="elementos/imagens/icones/css-3.1.png" alt="" />
+            </p>
+            <p class="grid-git-site">
+              <a href="https://github.com/joao121gf/loja-de-roupas" target="_blank">Código</a>
+              <a href="https://joao121gf.github.io/loja-de-roupas/" target="_blank">Visitar</a>
+            </p>
+          </div>
+        </div>
+        <div class="projects">
+          <img class="img-project" src="elementos/imagens/elements-project/tela-login-teste.png" alt="Tela de login" />
+          <div class="tec-usadas">
+            <h1 style="color: #0384fd">Tela de login</h1>
+            <p style="font-weight: 500; padding: 0 10px">A interface de uma tela de login animada, em breve planejo deixá-la funcional.</p>
+            <p class="icons-tools">
+              <img style="width: 35px" src="elementos/imagens/icones/html5.1.png" alt="" />
+              <img style="width: 35px" src="elementos/imagens/icones/css-3.1.png" alt="" />
+            </p>
+            <p class="grid-git-site">
+              <a href="https://github.com/joao121gf/tela-de-login" target="_blank">Código</a>
+              <a href="https://joao121gf.github.io/tela-de-login/" target="_blank">Visitar</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
 
+    <article class="father-contact" id="cont-here">
+      <div class="container-contact">
+        <div class="lets-work-father">
+          <div class="lets-work">
+            <h1>Vamos trabalhar juntos!</h1>
+            <p>Caso deseje entrar em contato comigo, minhas informações de contato estão disponíveis logo abaixo.</p>
+            <p>E-mail:<a style="margin-left: 6px" href="mailto:giovannirs957@gmail.com" target="_blank">giovannirs957@gmail.com</a></p>
+            <div class="logo-media">
+              <a href="https://github.com/joao121gf" target="_blank"><img class="social-logo" src="elementos/imagens/icones/github.png" alt="github icone" /></a>
 
-      <article class="father-contact" id="cont-here">
-        <div class="container-contact">
-          <div class="lets-work-father">
-            <div class="lets-work">
-              <h1>Vamos trabalhar juntos!</h1>
-              <p>Caso deseje entrar em contato comigo, minhas informações de contato estão disponíveis logo abaixo.</p>
-              <p>E-mail:<a style="margin-left: 6px;" href="mailto:giovannirs957@gmail.com" target="_blank">giovannirs957@gmail.com</a></p>
-              <div class="logo-media">
-                <a href="https://github.com/joao121gf" target="_blank"><img class="social-logo" src="elementos/imagens/icones/github.png" alt="github icone"></a>
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-giovani-657192204/" target="_blank"><img class="social-logo" src="elementos/imagens/icones/linkedin.png" alt="Linkedin icone" /></a>
 
-                <a href="https://www.linkedin.com/in/jo%C3%A3o-giovani-657192204/" target="_blank"><img class="social-logo" src="elementos/imagens/icones/linkedin.png" alt="Linkedin icone"></a>
-
-                <a href="https://www.instagram.com/joaogiio/" target="_blank"><img class="social-logo" src="elementos/imagens/icones/instagram.png" alt="Instagram logo"></a>
-              </div>
+              <a href="https://www.instagram.com/joaogiio/" target="_blank"><img class="social-logo" src="elementos/imagens/icones/instagram.png" alt="Instagram logo" /></a>
             </div>
           </div>
-          <form action="https://formsubmit.co/kingsizefake3@gmail.com" method="POST">
-            <div class="father-inputs">
-              <label for="inome"><img style="margin-right: 6px;"src="elementos/imagens/icones/user.png" alt="Usuario"></label>
-              <input type="text" name="nome" id="inome" required placeholder="Nome">
-            </div>
-            <div class="father-inputs">
-              <label for="iemail"><img style="margin-right: 6px;" src="elementos/imagens/icones/mail.png" alt="Email"></label>
-              <input type="email" name="email" id="iemail" required placeholder="E-mail">
-            </div>
-            <div class="mensage">
-              <textarea name="mensage" cols="30" rows="5" placeholder="Mensagem"></textarea>
-              
-            </div>
-            <div class="father-submit">
-              <input type="hidden" name="_next" value="https://joao121gf.github.io/projeto-portifolio/thanks-page.html">
-              <input type="submit" value="Enviar" class="submit-button" >
-            </div>
-
-          </form>
         </div>
-      </article>
+        <form action="https://formsubmit.co/kingsizefake3@gmail.com" method="POST">
+          <div class="father-inputs">
+            <label for="inome"><img style="margin-right: 6px" src="elementos/imagens/icones/user.png" alt="Usuario" /></label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome" />
+          </div>
+          <div class="father-inputs">
+            <label for="iemail"><img style="margin-right: 6px" src="elementos/imagens/icones/mail.png" alt="Email" /></label>
+            <input type="email" name="email" id="iemail" required placeholder="E-mail" />
+          </div>
+          <div class="mensage">
+            <textarea name="mensage" cols="30" rows="5" placeholder="Mensagem"></textarea>
+          </div>
+          <div class="father-submit">
+            <input type="hidden" name="_next" value="https://joao121gf.github.io/projeto-portifolio/thanks-page.html" />
+            <input type="submit" value="Enviar" class="submit-button" />
+          </div>
+        </form>
+      </div>
+    </article>
     <script src="mobile-navbar.js"></script>
-</body>
+  </body>
 </html>

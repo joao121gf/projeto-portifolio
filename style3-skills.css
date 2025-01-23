@@ -1,120 +1,116 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "inter";
-    src: url(elementos/fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+  font-family: "inter";
+  src: url(elementos/fontes/Inter/Inter-VariableFont_slnt\wght.ttf) format("truetype");
 }
 
-
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /* O container que envolve todas skills */
 .skills-container {
-    height: 500px;
-    background-color: #0C0B0C;
-    padding: 23px 0px 17px 0px;
-    margin-top: 175px;
+  height: 500px;
+  background-color: #0c0b0c;
+  padding: 23px 0px 17px 0px;
+  margin-top: 175px;
 }
-
 
 /* O quadrado que envolve elas */
 .skills {
-    width: 100%;
-    background-color: #0384fd;
-    margin: 0 auto;
-    max-width: 782px;
-    height: 70%;
-    margin-bottom: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    padding: 20px 0px 20px 32px;
-    background-image: linear-gradient(to right, #03529c, #0573da);
-
+  width: 100%;
+  background-color: #0384fd;
+  margin: 0 auto;
+  max-width: 782px;
+  height: 70%;
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px 0px 20px 32px;
+  background-image: linear-gradient(to right, #03529c, #0573da);
 }
 
 /* Configurando a caixinha das tecnologias */
-.mini-bloco{
-    width: 230px;
-    height: 130px;
-    background-color: #05001E;
-    background: linear-gradient(to right, #10141c, #06080a);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #D2EAFF;
-    font-family: inter;
-    font-weight: 500;
-    font-size: 1.2rem;
-    padding-top: 20px;
-    transition: transform 0.3s;
-    box-shadow: 3px 2px 3px 0px black;;
+.mini-bloco {
+  width: 230px;
+  height: 130px;
+  background-color: #05001e;
+  background: linear-gradient(to right, #10141c, #06080a);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #d2eaff;
+  font-family: inter;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-top: 20px;
+  transition: transform 0.3s;
+  box-shadow: 3px 2px 3px 0px black;
 }
 /* Aumentando as skilss quando passo o mouse emcima */
-.mini-bloco:hover{
-    transform: scale(1.05);
+.mini-bloco:hover {
+  transform: scale(1.05);
 }
-
 
 /* Configurando texto HABILIDADES */
 #id-skills {
-    text-align: center;
-    color: #0384fd;
-    font-family: inter;
-    font-weight: 400;
-    margin: 0px;
-    margin-bottom: 20px;
-    padding: 20px;
-    font-size: 2.3rem;
-
+  text-align: center;
+  color: #0384fd;
+  font-family: inter;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 2.3rem;
 }
 
 /* Configuração para os icones das skills nao romperem o container */
-@media (max-width:857px){
-    .skills {
-        padding: 20px 0px 20px 0px;
-    }
+@media (max-width: 857px) {
+  .skills {
+    padding: 20px 0px 20px 0px;
+  }
 
-    .skills-container{
-        margin-top: 512px;
-
-    }
+  .skills-container {
+    margin-top: 512px;
+  }
 }
 
+@media (max-width: 725px) {
+  .skills {
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+  }
 
-@media (max-width:725px){
-    .skills {
-        grid-template-columns: 1fr 1fr;
-        height: auto;
-        padding: 20px 0px 20px 0px;
+  .mini-bloco {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
 
-    }
-
-    .mini-bloco {
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    .skills-container {
-        height: auto;
-    }
-
+  .skills-container {
+    height: auto;
+  }
 }
 
+@media (max-width: 494px) {
+  .skills {
+    grid-template-columns: 1fr 1fr;
+  }
 
-@media (max-width:494px){
-    .skills {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .mini-bloco {
-        width: 144px;
-        height: 104px;
-    }
+  .mini-bloco {
+    width: 144px;
+    height: 104px;
+  }
 }
 
+.react {
+  width: 60px !important;
+}
+.ps6 {
+  width: 65px !important;
+}

@@ -1,84 +1,83 @@
 @charset "UTF-8";
 @font-face {
-    font-family: "inter";
-    src: url(elementos/fontes/Inter/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+  font-family: "inter";
+  src: url(elementos/fontes/Inter/Inter-VariableFont_slnt\wght.ttf) format("truetype");
 }
 
 /* Configurando a seção de sobre-mim abaixo das boas vindas */
 
-.container-sobre-mim{
-    height: 400px;
-    background-color: #101010;
-    margin-top: 420px;
-    animation: slide-left 1s ease-in-out;
+.container-sobre-mim {
+  height: 400px;
+  background-color: #101010;
+  margin-top: 420px;
+  animation: slide-left 1s ease-in-out;
 }
 
 .sobre-mim {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 22%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 22%;
 }
 
 .sobre-mim > div > h2 {
-    font-family: inter;
-    color: #0384fd;
-    margin-left: 20px;
-    font-weight: 400;
-    font-size: 2rem;
+  font-family: inter;
+  color: #0384fd;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 2rem;
 }
-
 
 .sobre-mim > div > p {
-    margin-left: 20px;
-    font-family: inter;
-    color: #d2eaffc4;
-    font-size: 18px;
-    width: 45vw;
-
+  margin-left: 20px;
+  font-family: inter;
+  color: #d2eaffc4;
+  font-size: 18px;
+  width: 45vw;
 }
-
 
 /* Configurando imagem da camisa do alice in chains */
-.foto-alice {  
-    height: 18vw;
-    min-height: 250px;
-    display: flex;
-    margin-top: 20px;
-    border-radius: 20px;
+.foto-alice {
+  height: 18vw;
+  min-height: 250px;
+  display: flex;
+  margin-top: 20px;
+  border-radius: 20px;
 }
 
+@media (max-width: 928px) {
+  /* Deixando a fonte h2 menor */
+  .sobre-mim > div > h2 {
+    font-size: 25px;
+  }
 
+  .sobre-mim > div > p {
+    width: 77%;
+    font-size: 100%;
+  }
 
-@media (max-width :928px){
-    /* Deixando a fonte h2 menor */
-    .sobre-mim > div >  h2 {
-        font-size: 25px;
-    }
-
-    .sobre-mim > div >  p {
-        width: 77%;
-        font-size: 100%;
-
-    }
-
-    /* Deixando a foto menor */
-    .foto-alice {  
+  /* Deixando a foto menor */
+  .foto-alice {
     min-height: 170px;
     margin: 0 auto;
     display: none;
-    }
+  }
 
-    .sobre-mim {
-        display: block;
-        left: initial;
-        margin-top: 66px;
-    }
+  .sobre-mim {
+    display: block;
+    left: initial;
+    margin-top: 66px;
+  }
 
-    .container-sobre-mim{
-        margin: 0px 20px;
-        height: auto;
-    }
+  .container-sobre-mim {
+    margin: 0px 20px;
+    height: auto;
+  }
+}
 
-
+.sobre-mim div {
+  display: flow;
+  justify-content: center;
+  align-items: center;
+  padding-top: 78px;
 }
